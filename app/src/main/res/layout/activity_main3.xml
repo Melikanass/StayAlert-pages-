@@ -14,11 +14,12 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="585dp"
-        android:layout_height="977dp"
+        android:layout_width="415dp"
+        android:layout_height="680dp"
         app:srcCompat="@drawable/unilogin"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="32dp" />
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="16dp" />
+
     <EditText
         android:id="@+id/simpleEditText2"
         android:layout_width="456dp"
@@ -26,8 +27,8 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:text=" "
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="563dp" />
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="521dp" />
 
     <EditText
         android:id="@+id/simpleEditText3"
@@ -36,6 +37,6 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:text=" "
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="720dp" /><!--set text in edit text-->
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="673dp" /><!--set text in edit text-->
 </androidx.constraintlayout.widget.ConstraintLayout>
