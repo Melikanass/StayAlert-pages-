@@ -10,7 +10,7 @@
         android:id="@+id/imageView3"
         android:layout_width="407dp"
         android:layout_height="756dp"
-        app:srcCompat="@drawable/MainPage"
+        app:srcCompat="@drawable/mainpage"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="-11dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
