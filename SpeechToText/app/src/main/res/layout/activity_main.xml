@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textSect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/play"
+        android:lineSpacingExtra="8sp"
+        android:text="Click to Speak"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id = "@+id/VoiceBtn"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:scaleType = "fitCenter"
+        android:src="@drawable/ic_mic_black_24dp"
+        android:layout_centerHorizontal = "true"
+        android:layout_margin="50dp"/>
+    <!--
+    <TextView
+        android:id = '@+id/SpeechCond'
+        android:layout_width="210dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text = ""
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        /> -->
+
+    <EditText
+        android:id="@+id/Code1"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="206dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:hint="Code Phrase 1" />
+
+    <EditText
+        android:id="@+id/Code2"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:hint="Code Phrase 2"/>
+
+    <EditText
+        android:id="@+id/Code3"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif"
+        android:hint="Code Phrase3"/>
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:layout_marginTop="436dp"
+        android:layout_marginRight = "24dp"
+        android:layout_marginLeft = "24dp"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="537dp"
+        android:background="@null"
+        android:onClick="call"
+        android:text="" />
+
+    <ImageButton
+        android:id = "@+id/PhoneImg"
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:background="@null"
+        android:scaleType = "fitCenter"
+        android:src="@drawable/ic_local_phone_black_24dp"
+        android:layout_marginLeft = "110dp"
+        android:layout_marginTop="489dp"/>
+
+    <Button
+        android:id="@+id/sendSMS"
+        android:layout_width="140px"
+        android:layout_height="140px"
+        android:background="@null"
+        android:layout_marginTop="527dp"
+        android:layout_marginLeft = "250dp"
+        android:text="" />
+
+    <ImageButton
+        android:id = "@+id/btnSend"
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:background="@null"
+        android:scaleType = "fitCenter"
+        android:src="@drawable/ic_textsms_black_24dp"
+        android:layout_marginLeft = "240dp"
+        android:layout_marginTop="499dp"/>
+
+</RelativeLayout>
