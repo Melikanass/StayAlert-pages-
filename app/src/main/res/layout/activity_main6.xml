@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Main6Activity">
 
+    <Button
+        android:id="@+id/nextpage6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO NEXT PAGE" />
+
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="396dp"

@@ -13,4 +13,50 @@
         app:srcCompat="@drawable/createaccountpage"
         tools:layout_editor_absoluteX="-6dp"
         tools:layout_editor_absoluteY="-10dp" />
+
+    <Button
+        android:id="@+id/nextpage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO NEXT PAGE" />
+
+    <EditText
+        android:id="@+id/simpleEditText"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="250dp" /><!--set text in edit text-->
+
+    <EditText
+        android:id="@+id/simpleEditText2"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="367dp" /><!--set text in edit text-->
+
+    <EditText
+        android:id="@+id/simpleEditText3"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="476dp" /><!--set text in edit text-->
+
+    <EditText
+        android:id="@+id/simpleEditText4"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="578dp" /><!--set text in edit text-->
 </androidx.constraintlayout.widget.ConstraintLayout>
